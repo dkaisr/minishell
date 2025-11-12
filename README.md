@@ -1,5 +1,23 @@
 # Minishell
-A fully-functional partial reimplementation of bash from scratch 
+A partial reimplementation of bash from scratch created at 42 Heilbronn
+
+# Features
+- Command history
+- Pipes
+- File redirections and heredoc
+- Environment variables
+- Access to exectuables in path (`ls`, `cat`, `grep`, ...)
+- Complex string handling
+- Keyboard interupts (Ctrl-D, Ctrl-C, Ctrl-\\)
+- Shell nesting
+- Builtin commands
+  - echo
+  - export
+  - unset
+  - exit
+  - cd
+  - env
+  - pwd
 
 # How to run this
 ```bash
