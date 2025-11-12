@@ -1,7 +1,7 @@
 # Minishell
 A partial reimplementation of bash from scratch created at 42 Heilbronn
 
-# Features
+## Features
 - Command history
 - Pipes
 - File redirections and heredoc
@@ -19,7 +19,11 @@ A partial reimplementation of bash from scratch created at 42 Heilbronn
   - env
   - pwd
 
-# How to run this
+## Dependencies
+- gcc
+- GNU Make
+- readline
+## How to run this
 ```bash
 # Clone the repo
 git clone https://github.com/dkaisr/minishell.git
