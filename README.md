@@ -6,7 +6,7 @@ A partial reimplementation of bash from scratch created at 42 Heilbronn
 - Pipes
 - File redirections and heredoc
 - Environment variables
-- Access to exectuables in path (`ls`, `cat`, `grep`, ...)
+- Access to executables in path (`ls`, `cat`, `grep`, ...)
 - Complex string handling
 - Keyboard interupts (Ctrl-D, Ctrl-C, Ctrl-\\)
 - Shell nesting
