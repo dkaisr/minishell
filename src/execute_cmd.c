@@ -13,6 +13,7 @@
 #include "minishell.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <wait.h>
 
 static void	establish_pipeline(int original_stdin, int original_stdout);
 static int	exec_cmd(t_cmd *cmd, t_env **env, int original_std[2], int result);

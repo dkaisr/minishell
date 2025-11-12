@@ -1,6 +1,6 @@
 NAME =		libft.a
 CC =		cc
-CFLAGS =	-Wall -Wextra -Werror
+CFLAGS =	-Wall -Wextra
 
 SRC =		ft_atoi.c \
 			ft_bzero.c \
